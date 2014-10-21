@@ -1,6 +1,6 @@
 # CS190 Lab 5 - Debugging #
 
-In this lab you'll go through a short program, identify the bugs, and
+In this lab you'll go through a short program, identify the bugs and fix them.
 
 There is no reference sheet this week, but the slides are available [HERE](https://docs.google.com/presentation/d/1GA8FRq5618pvYbugs1kHfeiZ7oWRm-725vrvCF7CkeI/edit?usp=sharing)
 
@@ -13,7 +13,7 @@ There is no reference sheet this week, but the slides are available [HERE](https
 
 Copy the command above and run it within the terminal. It will create a folder named `cs190lab5` located within your home directory.
 
-We say to only run this once because it will overwrite your old copy, so if you made changes **they could be lost**.
+We say to only run this once because it will overwrite your old copy, so if you made changes **they will be lost**.
 
 ----
 
@@ -28,7 +28,7 @@ We say to only run this once because it will overwrite your old copy, so if you 
 
 
 ## Start Here ##
-Compile and run T`ransformer.java`. You do this in DrJava, or by using the command line utilities `javac` to compile and `java` to run it.
+Compile and run `Transformer.java`. You do this in DrJava, or by using the command line utilities `javac` to compile and `java` to run it.
 
 Terminal example command to compile and run:
 `javac Transformer.java && java Transformer`
@@ -56,7 +56,7 @@ There are currently two transformations implemented, but neither works correctly
  - The `reverse()` method should return a string with the characters in reverse order.
 
 As we can see from the output above, the capitalized version isn't capitalized in the way we want.
-Lets figure out what's wrong.
+Let's figure out what's wrong.
 
 ### `capitalize()` ###
 
@@ -69,7 +69,7 @@ It currently capitalizes a bunch of characters, but not the first character.
 Find the bug in here using whatever strategies you'd like, the DrJava debugger and print statements are two excellent options.
 Then implement a fix.
 
-After this, you should have a working capitalize method, so lets look at `reverse()`
+After this, you should have a working capitalize method, so let's look at `reverse()`
 
 ### `reverse()` ###
 This reverse method uses a pretty standard reversal algorithm.
@@ -110,7 +110,8 @@ If this is what you see, then you're done! Look below at **grading** to see what
 
 ## Grading ##
 
-Explain to a TA what debugging method you used
+Explain to a TA what debugging method you used.
+
 Explain each bug to a TA and say how you fixed it.
 
 

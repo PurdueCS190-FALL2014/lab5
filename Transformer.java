@@ -58,7 +58,7 @@ class Transformer{
       stringContents[i]           = stringContents[len - i - 1];
       // the last spot in the array is set to the current element
       stringContents[len - i - 1] = temp;
-      // reset temp every time to a garbage value **Not neccessary for algorithm to work**
+      // reset temp every time to a garbage value **Not necessary for algorithm to work**
       // only useful for debugging
       temp = 'A';
     }
@@ -69,8 +69,8 @@ class Transformer{
   public static void main(String args[]){
     String source = "cs190 is sooooooo awesome!!!";
     Transformer t = new Transformer(source);
-    System.out.println( "Original Input is: " + source);
 
+    System.out.println( "Original Input is: " + source);
     System.out.println( "==================");
     System.out.println( "Capitalized Version: ");
     System.out.println( "=====================");
