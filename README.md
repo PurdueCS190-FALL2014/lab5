@@ -25,7 +25,9 @@ We say to only run this once because it will overwrite your old copy, so if you 
 2. Under the 'Debugger' menu option, enable 'Debug Mode'
 3. Hit Run
 
-
+If the DrJava on the lab machines says it cannon't find the debugger,
+use the DrJava from lab3, that version should find it.
+Check edit->preferences->debugger will show you if the debugger is found.
 
 ## Start Here ##
 Compile and run `Transformer.java`. You do this in DrJava, or by using the command line utilities `javac` to compile and `java` to run it.
