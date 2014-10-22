@@ -5,15 +5,11 @@ In this lab you'll go through a short program, identify the bugs and fix them.
 There is no reference sheet this week, but the slides are available [HERE](https://docs.google.com/presentation/d/1GA8FRq5618pvYbugs1kHfeiZ7oWRm-725vrvCF7CkeI/edit?usp=sharing)
 
 ### The Magic Command ###
-> Not really magic at this point, its just `wget` with some arguments!
+> This "magic" will be explained in one of the next lectures!
 
-**ONLY RUN THIS ONCE.**
-
-	cd; wget -NP ~/cs190lab5 https://raw.githubusercontent.com/PurdueCS190/lab5/master/Transformer.java
+	git clone https://github.com/PurdueCS190/lab5.git ~/cs190lab5
 
 Copy the command above and run it within the terminal. It will create a folder named `cs190lab5` located within your home directory.
-
-We say to only run this once because it will overwrite your old copy, so if you made changes **they will be lost**.
 
 ----
 
