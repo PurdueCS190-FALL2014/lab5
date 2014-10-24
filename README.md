@@ -15,15 +15,19 @@ Copy the command above and run it within the terminal. It will create a folder n
 
 ## Things To Know ##
 
+##### Getting the DrJava debugger on Lab Machines #####
+DrJava on the lab machines defaults to Java version 8, and the debugger isn't compatible with java jdk > 7
+To get around this, you can use the shell script we've given below
+
+1. Open DrJava using the shell script we supply.
+2. `~/cs190lab5/open_drjava Transformer.java`
+
 ##### Using the DrJava debugger #####
 
 1. Right click on a line, select 'Toggle Breakpoint'
 2. Under the 'Debugger' menu option, enable 'Debug Mode'
 3. Hit Run
 
-If the DrJava on the lab machines says it cannon't find the debugger,
-use the DrJava from lab3, that version should find it.
-Check edit->preferences->debugger will show you if the debugger is found.
 
 ## Start Here ##
 Compile and run `Transformer.java`. You do this in DrJava, or by using the command line utilities `javac` to compile and `java` to run it.
